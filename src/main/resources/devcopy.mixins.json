@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "io.github.jonesjughead.devcopy.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"ClientPacketListenerMixin",
+		"HudMixin",
+		"ParticlePacketMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

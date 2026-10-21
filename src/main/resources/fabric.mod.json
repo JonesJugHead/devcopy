@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "devcopy",
+	"version": "${version}",
+	"name": "DevCopy",
+	"description": "Copies the text of the scoreboard, tab list, boss bars, titles and action bar to the clipboard, and records particle packets for reverse-engineering. A tool for plugin and server developers.",
+	"authors": ["JonesJugHead"],
+	"license": "MIT",
+	"icon": "assets/devcopy/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["io.github.jonesjughead.devcopy.DevCopy"]
+	},
+	"mixins": ["devcopy.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
